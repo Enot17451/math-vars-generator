@@ -1,0 +1,12 @@
+import random
+
+words = ['x','y','n','m','a','b','c','z','k','f','t','s','d']
+for x in range(10):
+    n = random.randint(-10,10)
+    l = random.choice(words)
+    if n not in [-1,0,1]:
+        print(n,end="")
+    else:
+        if n == -1:
+           print("-",end="") 
+    print(l)
